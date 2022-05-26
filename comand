@@ -1,1 +1,1 @@
-sudo docker run --cpus 0.7 -it --rm --log-driver none --name multidd --pull always karboduck/multidd -p0 -g -t 1500
+sudo docker run --cpus 0.7 -it --rm --log-driver none --name multidd --pull always karboduck/multidd -p0 -g -t 1000
